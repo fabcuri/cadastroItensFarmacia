@@ -55,7 +55,7 @@ function cadastrar(event) {
         localStorage.setItem("meds", JSON.stringify(listaNoLocalStorage)) // salvar no local storage
 
         document.getElementById('form-meds').reset()
-        carregarDados()
+        location.reload();
     }
 }
 document
@@ -77,7 +77,7 @@ document
           const img = document.createElement('img')
           img.setAttribute("width", "150px")
           img.setAttribute("height", "150px")
-          img.setAttribute('src', "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-premium%2Ffrasco-de-medicamento-com-rotulo-frasco-vazio-para-medicamentos-comprimidos-capsulas-prescricoes-vitaminas-etc-recipiente-farmaceutico-isolado-em-fundo-branco_63627644.htm&psig=AOvVaw0vqIULBwAycN_eXp4oDjq9&ust=1725104647945000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIie1ebRnIgDFQAAAAAdAAAAABAE ")
+          img.setAttribute('src', "img/caixa-remedio.jpg")
           div.append(img)
 
 
